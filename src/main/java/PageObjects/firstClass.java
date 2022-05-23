@@ -16,6 +16,7 @@ public class firstClass {
             browserSession.get("");
             Thread.sleep(5000);
 
+            //Use PageObject for sing in on the website//
             LoginPage lp = new LoginPage();
             lp.login("admin", "admin");
 
